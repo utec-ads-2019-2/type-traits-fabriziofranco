@@ -61,6 +61,7 @@ class TraitsList {
         }
 
         T operator [] (int index) {
+            // Si es índice negativo?
             if(this->head!= nullptr && index<this->tamano){
                 auto contador=0;
                 auto temp=this->head;

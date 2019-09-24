@@ -34,6 +34,7 @@ public:
         }
              
         bool remove(T value) {
+            // Aquí te va a dar warning 
             if(this->head!= nullptr){
                 auto temp=head;
                 for (int i = 0; i < tamano; ++i) {
@@ -68,6 +69,7 @@ public:
         }  
 
         bool find(T data) {
+            // Aquí te va a dar warning
             if(head!= nullptr){
                 auto temp=head;
                 for(int i=0;i<tamano;i++){
